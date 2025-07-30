@@ -161,7 +161,7 @@ Unix funny commented code @unix-comment
 ```
 
 
-#bibliography("citar.yaml", style: "american-medical-association")
+#bibliography("citar.yaml")
 
 
 /*
