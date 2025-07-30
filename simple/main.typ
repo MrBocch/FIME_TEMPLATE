@@ -15,10 +15,9 @@
     day:   29,
 )
 
-// https://fonts.google.com/specimen/Lato
 #set text(font: "Lato", 12pt)
-// https://www.dafont.com/linux-biolinum.font
-// #set text(font: "Linux Biolinum")
+
+#show link: set text(blue)
 
 // Documento
 #set page(
