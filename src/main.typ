@@ -1,4 +1,5 @@
 #import "portada_template.typ": *
+#import "src/util.typ": *
 
 #let fecha = datetime(
   year:  2025,
@@ -17,7 +18,7 @@
 )
 
 
-#show: template 
+#show: template
 
 = Hello World
 
@@ -25,13 +26,13 @@
 
 #quote(attribution: "Reedit")[
   Es una lástima que no estés conmigo
-  
+
   cuando miro el reloj y son las cuatro
-  
+
   y acabo la planilla y pienso diez minutos
-  
+
   y estiro las piernas como todas las tardes
-  
+
   y hago así con los hombros para aflojar la espalda
 ]
 
@@ -39,6 +40,12 @@ Algo muy padre. @unix-comment
 
 Something Else that is cool @other-comment
 
-= Bibliographia 
+The page keeps tracking even after using the utility function.
+
+#pagebreak()
+
+#img_to_pdf( ("img/uanl.png", "img/fime.png") )
+
+= Bibliographia
 
 #bibliography("citar.yaml")
